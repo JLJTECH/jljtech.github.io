@@ -93,8 +93,8 @@ Now that we have a user shell and have located the user flag, we can go back to 
 ```bash
 root@ip-10-10-44-243:~# scp s***k@$IP:/home/s***k/* .
 s***k@$IP password: 
-credential.pgp                                                  100%  394   204.1KB/s   00:00    
-tryhackme.asc                                                   100% 5144     4.1MB/s   00:00
+credential.pgp                  100%  394   204.1KB/s   00:00    
+tryhackme.asc                   100% 5144     4.1MB/s   00:00
 ```
 
 Now, with the files available, we can leverage gpg2john to reveal the hash in the tryhackme.asc file. From there, we can then use john to crack the password hash.
