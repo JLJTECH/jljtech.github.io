@@ -99,4 +99,4 @@ cat /root/root.txt
 2. ssh login with located credentials
 3. sudo enumeration and exploitation of privilege using GTFObins
 
-[1]:lfi.png
+[1]:/img/roomicons/lfi.png
